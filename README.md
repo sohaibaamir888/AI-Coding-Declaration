@@ -162,4 +162,4 @@ paths:
 ## Design Philosophy (Final)
 This project captures what developers say happened. It does not decide what that means.
 
-_Final grounding sentence: This OSS normalizes declaration. Vantys formalizes responsibility._
+_Final grounding sentence: This OSS normalizes declaration. .
