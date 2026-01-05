@@ -1,0 +1,25 @@
+# Canonical AI assistance declaration schema (v1.0)
+ai_assistance:
+  materially_influenced:
+    type: enum
+    values: [true, false, unknown]
+  assistance_type:
+    type: list
+    items:
+      type: enum
+      values: [generation, refactor, suggestion, test_generation, unknown]
+    required: false
+  tool:
+    type: string
+    required: false
+    nullable: true
+  declared_by:
+    type: string
+  declared_at:
+    type: string
+    format: iso-8601
+  schema_version:
+    type: string
+    const: "1.0"
+
+# Validation is structural only. Do not add semantic or behavioral validation.

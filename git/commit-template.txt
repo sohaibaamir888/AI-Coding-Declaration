@@ -1,0 +1,6 @@
+# Add your commit subject above
+
+# AI declaration trailers (optional)
+ai-assisted: unknown
+ai-assistance-type: 
+ai-tool: 

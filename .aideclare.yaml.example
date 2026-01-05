@@ -1,0 +1,8 @@
+output:
+  commit_trailer: true
+  structured_file: false
+  append_to_commit_message: false
+paths:
+  structured_file: .ai/ai-assistance.yaml
+defaults:
+  schema_version: "1.0"
