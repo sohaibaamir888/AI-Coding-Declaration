@@ -1,0 +1,5 @@
+Refactor auth middleware
+
+ai-assisted: yes
+ai-assistance-type: generation
+ai-tool: github-copilot
